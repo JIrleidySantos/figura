@@ -12,11 +12,11 @@ public class Circulo {
 
     double pi = 3.1416;
 
-    public int radio;
+    public double radio;
     public double area;
     public double perimetro;
 
-    public Circulo(int radio) {
+    public Circulo(double radio) {
         this.radio = radio;
     }
 
@@ -25,7 +25,7 @@ public class Circulo {
     }
 
     public double calcularArea() {
-        return (radio * radio) / pi;
+        return (radio * radio) * pi;
     }
 
     public double calcularPerimetro() {

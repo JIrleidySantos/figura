@@ -14,7 +14,7 @@ public class Figurasgeo {
 
     public static void main(String[] args) {
 
-        Circulo objCirculo = new Circulo(15);
+        Circulo objCirculo = new Circulo(10.6);
 
         objCirculo.imprimir();
 
@@ -24,7 +24,7 @@ public class Figurasgeo {
         double perimetro = objCirculo.calcularPerimetro();
         System.out.println("El perimetro del Circulo es " + perimetro);
 
-        Cuadrado objCuadrado = new Cuadrado(20);
+        Cuadrado objCuadrado = new Cuadrado(30.5);
 
         objCuadrado.imprimir();
 

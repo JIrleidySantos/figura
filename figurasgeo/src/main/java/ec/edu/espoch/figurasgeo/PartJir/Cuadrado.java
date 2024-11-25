@@ -10,11 +10,11 @@ package ec.edu.espoch.figurasgeo.PartJir;
  */
 public class Cuadrado {
 
-    public int lado;
+    public double lado;
     public double area;
     public double perimetro;
 
-    public Cuadrado(int lado) {
+    public Cuadrado(double lado) {
         this.lado = lado;
     }
 
